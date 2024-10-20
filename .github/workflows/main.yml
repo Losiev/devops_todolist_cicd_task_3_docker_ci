@@ -45,7 +45,7 @@ jobs:
         run: |
           flake8 . --show-source --statistics --exit-zero
 
-      - name: Check Complexity
+      - name: Checking Complexity
         run: |
           flake8 . --exit-zero --max-complexity=6
 
